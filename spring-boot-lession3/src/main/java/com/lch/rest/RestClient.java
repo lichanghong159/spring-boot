@@ -9,7 +9,7 @@ import java.util.Map;
 
 /**
  * @ClassName RestClient
- * @Description TODO
+ * @Description RestTemplate示例
  * @Authod lichanghong
  * @Date 2018/8/20 10:26
  **/
