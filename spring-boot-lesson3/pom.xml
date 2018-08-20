@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.lch</groupId>
-	<artifactId>spring-boot-lession3</artifactId>
+	<artifactId>spring-boot-lesson3</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
