@@ -14,7 +14,7 @@ import java.io.PrintWriter;
 
 /**
  * @ClassName MyServlet2
- * @Description TODO
+ * @Description Spring-boot-API注册servlet
  * @Authod lichanghong
  * @Date 2018/8/20 17:53
  **/
@@ -31,7 +31,8 @@ public class MyServlet2 extends HttpServlet {
             throws ServletException, IOException {
         PrintWriter writer =resp.getWriter();
         ServletContext context = getServletContext();
-        context.log("MyServlet2 doGet().....");
+        String url = req.getRequestURI();
+        context.log(url+" doGet().....");
         writer.write("<html><body>Hello,World。MyServlet2--InitParameter:"+value+"</body></html>");
     }
 }
